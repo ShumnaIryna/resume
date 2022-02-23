@@ -203,6 +203,35 @@ body {
 
 @media print {
   /*TODO*/
-  * {
+  html,
+  body,
+  .main-content {
+    height: 100%;
+  }
+  body {
+    background-color: #fff;
+    font-family: sans-serif;
+  }
+  .main-content {
+    box-shadow: none;
+    max-height: 100%;
+    color: #000;
+    margin: 0 auto;
+  }
+  .sidebar-section {
+    background-color: rgb(200 207 205);
+    padding: 0;
+  }
+  .skills-title a,
+  .skills-title,
+  .skills-text,
+  .about-me-description,
+  .about-me-description,
+  .about-me-description,
+  .my-work-experience-duty,
+  .my-work-experience-period,
+  .my-education-period {
+    color: #000;
+    font-weight: bold;
   }
 }
